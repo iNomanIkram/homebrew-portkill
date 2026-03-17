@@ -3,7 +3,7 @@ class Portkiller < Formula
   homepage "https://github.com/inomanikram/homebrew-portkiller"
   version "1.0.1"
   url "https://github.com/iNomanIkram/homebrew-portkiller/archive/refs/tags/v1.0.2.tar.gz"
-  sha256 "2986d739805549d9dc583731fa7b11f8f1bb7e780a3043e51247654a4fdaf578"
+  sha256 "ee1d15c33d95300096a0409fb806fee4d5e2021154bc575f223bb4f305712190"
   license "MIT"
 
   def install
