@@ -3,7 +3,7 @@ class Portkill < Formula
   homepage "https://github.com/inomanikram/homebrew-portkill"
   version "1.0.1"
   url "https://github.com/iNomanIkram/homebrew-portkill/archive/refs/tags/v1.0.1.tar.gz"
-  sha256 "6e1c3a6a63190d6fe48e9182eb73b93bb42c26e389a5547ce2a2f71bf7b6a9c0"
+  sha256 "2986d739805549d9dc583731fa7b11f8f1bb7e780a3043e51247654a4fdaf578"
   license "MIT"
 
   def install
