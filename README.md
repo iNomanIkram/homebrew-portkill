@@ -1,0 +1,54 @@
+# PortKill
+
+`portkill` is an advanced port process manager for macOS and Linux. It quickly finds and kills processes listening on specific ports.
+
+## Features
+
+- Kill a single port process
+- Kill multiple port processes at once
+- List all active listening ports
+- List self-assigned ports (>1024)
+
+## Installation via Homebrew
+
+To install `portkill` via Homebrew, you will need to add it to a Custom Tap (since it is a personal script).
+
+Assuming you host this on GitHub at `https://github.com/yourusername/portkill`.
+
+1. **Tap the repository**:
+   ```bash
+   brew tap yourusername/portkill
+   ```
+2. **Install the package**:
+   ```bash
+   brew install portkill
+   ```
+
+> **Note to Developer:** See the included `portkill.rb` file for an example Homebrew formula to use in your tap!
+
+## Usage
+
+```bash
+# Kill a single port (e.g., port 8080)
+portkill kill 8080
+
+# Kill multiple ports (e.g., 8080, 3000, 5432)
+portkill killm 8080,3000,5432
+
+# List all listening ports
+portkill list
+
+# List self-assigned ports (>1024)
+portkill self
+
+# Show version
+portkill version
+```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
