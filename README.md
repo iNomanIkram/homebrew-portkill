@@ -13,11 +13,11 @@
 
 To install `portkiller` via Homebrew, you will need to add it to a Custom Tap (since it is a personal script).
 
-Assuming you host this on GitHub at `https://github.com/inomanikram/homebrew-portkiller`.
+Assuming you host this on GitHub at `https://github.com/thenomanikram/homebrew-portkiller`.
 
 1. **Tap the repository**:
    ```bash
-   brew tap inomanikram/portkiller
+   brew tap thenomanikram/portkiller
    ```
 2. **Install the package**:
    ```bash
